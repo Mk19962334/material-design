@@ -12,6 +12,11 @@ import { StaffdetailsComponent } from './staffdetails/staffdetails.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    StaffLoginComponent,
+    StaffdetailsComponent
   ]
+
 })
 export class StaffModule { }
